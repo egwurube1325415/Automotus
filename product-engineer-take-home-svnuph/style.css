@@ -1,0 +1,135 @@
+html,
+body {
+  font-family: Barlow Condensed;
+  margin: 0;
+  padding: 0;
+}
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: 0;
+}
+
+.black {
+  color: black;
+}
+
+.grey {
+  color: grey;
+}
+
+.home header {
+  position: absolute;
+  top: 0;
+  font-family: Barlow;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 20vh;
+  align-items: center;
+  z-index: 2;
+}
+
+.home header .logo {
+  margin-left: 10%;
+}
+
+.home header .options {
+  width: 25%;
+  margin-right: 10%;
+}
+
+.home header .options ul.heading-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home header .options li.style {
+  font-size: large;
+  font-weight: 100;
+}
+
+.home .part {
+  margin: 7% 0 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home .part .content {
+  margin-top: 10%;
+  width: 32%;
+}
+
+.home .content .first-line {
+  display: flex;
+  width: 100%;
+  font-size: large;
+  font-weight: 400;
+  color: grey;
+}
+
+.home .content h1 {
+  margin-top: 4%;
+  font-size: 57px;
+  font-weight: 900;
+  font-family: Barlow;
+}
+
+.home .content p {
+  font-size: 26px;
+}
+
+.home .content .next-line {
+  display: flex;
+}
+
+.home .content .next-line button.schedule {
+  padding: 0 3%;
+  border-radius: 8%;
+  border: 0;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: red;
+  color: white;
+}
+
+.home .content .next-line h3 {
+  margin-left: 2%;
+  letter-spacing: 5px;
+  color: gray;
+}
+
+.home .content .first-line button {
+  padding: 0.2% 0.5%;
+  border-radius: 28.1%;
+  border: 0;
+  background: black;
+  color: white;
+}
+
+.home .content .first-line h4 {
+  margin: 2px 1% 2px;
+  letter-spacing: 8px;
+}
+
+.home .part .box-content .grey-box {
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 0 0 10%;
+  background-color: aliceblue;
+  z-index: 0;
+}
+
+.home .part .box-content img.devices {
+  position: absolute;
+  right: 0;
+  top: 250px;
+  width: 1000px;
+  height: 600px;
+}
